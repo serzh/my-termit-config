@@ -15,7 +15,7 @@ defaults.transparency = 0
 defaults.hideSingleTab = true
 defaults.hideMenubar = true
 --defaults.fillTabbar = false
-defaults.fillTabbar = true
+defaults.fillTabbar = false
 defaults.scrollbackLines = 2^16
 defaults.geometry = '80x24'
 defaults.allowChangingTitle = true
@@ -33,7 +33,7 @@ end
 --    newTitle = 'Termit: '..title
 --    return newTitle
 --end
-defaults.colormap = termit.colormaps.zenburn
+defaults.colormap = termit.colormaps.delicate
 defaults.matches = {['http.*'] = function (url) print('Matching url: '..url) end}
 --defaults.tabs = {{title = 'Test new tab 1'; workingDir = '/tmp'};
     --{title = 'Test new tab 2'; workingDir = '/tmp'}}
